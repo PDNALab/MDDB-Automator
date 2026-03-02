@@ -235,7 +235,7 @@ create_slurm_script() {
 #SBATCH --output=MDDB.out
 #SBATCH --error=MDDB.err
 #SBATCH --mail-type=FAIL
-##SBATCH --mail-user=imeshr150@gmail.com
+##SBATCH --mail-user=<email@ufl.edu>
 ##SBATCH --partition=hpg-b200
 #SBATCH --nodes=1
 #SBATCH --ntasks=8
